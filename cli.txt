@@ -1,0 +1,60 @@
+Script started on 2022-09-07 12:51:07+00:00
+bash-4.4$ pwd
+/home/jkpathak/project
+bash-4.4$ ls -lhrt
+total 8.0K
+-rw-r--r-- 1 jkpathak dba 0 Aug 24 15:03 houses.txt
+-rw-r--r-- 1 jkpathak dba 7 Aug 24 15:03 surnames.txt
+-rw-r--r-- 1 jkpathak dba 0 Sep  7 12:39 jigar.txt
+-rw-r--r-- 1 jkpathak dba 0 Sep  7 12:51 cli.txt
+bash-4.4$ touch patah[K[K[K[K[Ktest.txt
+bash-4.4$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcli.txt[m
+	[31mtest.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-4.4$ git add .
+bash-4.4$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   cli.txt[m
+	[32mnew file:   test.txt[m
+
+bash-4.4$ git[K[K[Kgit commit -a [K[Km "test.txt added"
+[master 881f626] test.txt added
+ Committer: jigar.pathak@oracle.com <jkpathak@phoenix96622.dev3sub2phx.databasede3phx.oraclevcn.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cli.txt
+ create mode 100644 test.txt
+bash-4.4$ git status
+On branch master
+nothing to commit, working tree clean
+bash-4.4$ git satus[K[K[K[Ktatus
+On branch master
+nothing to commit, working tree clean
+bash-4.4$ ls -lhrt
+total 8.0K
+-rw-r--r-- 1 jkpathak dba 0 Aug 24 15:03 houses.txt
+-rw-r--r-- 1 jkpathak dba 7 Aug 24 15:03 surnames.txt
+-rw-r--r-- 1 jkpathak dba 0 Sep  7 12:39 jigar.txt
+-rw-r--r-- 1 jkpathak dba 0 Sep  7 12:51 cli.txt
+-rw-r--r-- 1 jkpathak dba 0 Sep  7 12:51 test.txt
+bash-4.4$ vi test.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H"test.txt" 0L, 0C[2;1H[94m~                                                                                                                                                           [3;1H~                                                                                                                                                           [4;1H~                                                                                                                                                           [5;1H~                                                                                                                                                           [6;1H~                                                                                                                                                           [7;1H~                                                                                                                                                           [8;1H~                                                                                                                                                           [9;1H~                                                                                                                                                           [10;1H~                                                                                                                                                           [11;1H~                                                                                                                                                           [12;1H~                                                                                                                                                           [13;1H~                                                                                                                                                           [14;1H~                                                                                                                                                           [15;1H~                                                                                                                                                           [16;1H~                                                                                                                                                           [17;1H~                                                                                                                                                           [18;1H~                                                                                                                                                           [19;1H~                                                                                                                                                           [20;1H~                                                                                                                                                           [21;1H~                                                                                                                                                           [22;1H~                                                                                                                                                           [23;1H~                                                                                                                                                           [24;1H~                                                                                                                                                           [25;1H~                                                                                                                                                           [26;1H~                                                                                                                                                           [27;1H~                                                                                                                                                           [28;1H~                                                                                                                                                           [29;1H~                                                                                                                                                           [30;1H~                                                                                                                                                           [31;1H~                                                                                                                                                           [32;1H~                                                                                                                                                           [33;1H~                                                                                                                                                           [1;1H[?25h[?25l[m[34;1H[97m[41mE353: Nothing in register "[1;1H[?25h[?25l[m[34;1H[1m-- INSERT --[m[34;13H[K[1;1H[?25h[?25lj[?25h[?25li[?25h[?25lg[?25h[?25la[?25h[?25lr[?25h[?25l[2;1H[K[2;1H[?25h[?25lr[?25h[?25ld[?25h[?25l[2;2H[K[2;2H[?25h[?25le[?25h[?25le[?25h[?25ld[?25h[?25lh[?25h[?25le[?25h[?25le[?25h[?25l[3;1H[K[3;1H[?25h[?25lp[?25h[?25lr[?25h[?25ln[?25h[?25la[?25h[?25ls[?25h[?25lh[?25h[?25lu[?25h[?25l[4;1H[K[4;1H[?25h[?25ll[?25h[?25le[?25h[?25lt[?25h[?25ls[?25h[?25l [?25h[?25ll[?25h[?25le[?25h[?25la[?25h[?25lr[?25h[?25ln[?25h[34;1H[K[4;10H[?25l[?25h[?25l[34;1H:[?2004h[?25hwq[?25l[?2004l"test.txt" 4L, 33C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ gi
